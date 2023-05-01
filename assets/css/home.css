@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1370px){
+
 *{
     box-sizing: border-box;
     padding: 0px;
@@ -1090,7 +1090,7 @@ span{
     padding: 5px;
     background-color:#007e6a;
 }
-}
+
 
 @media only screen and (max-width: 580px) {
     .hero .overlay{
