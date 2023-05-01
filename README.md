@@ -1,1 +1,1 @@
-# dist is a project on web development (front-end)
+# dist is a project on web development
