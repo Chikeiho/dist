@@ -1131,6 +1131,9 @@ span{
 
 
 
+
+
+
 @media only screen and (max-width: 580px){
     *{
         box-sizing: border-box;
@@ -2207,13 +2210,13 @@ span{
         display:flex;
         list-style-type: none;
         position: relative;
-        left: 150px;
-        margin-left: 150px;
+        left: 30px;
+        margin-left: 50px;
     
     }
     
     .last .last-main .social ul li {
-        margin-left: 30px;
+        margin-left: 20px;
     }
     
     .last .last-main .social ul li a {
@@ -2240,7 +2243,7 @@ span{
 
 
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 770px) {
     .hero .overlay{
         width: 100%;
         height: 100vh;
