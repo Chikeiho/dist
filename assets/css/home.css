@@ -2711,7 +2711,7 @@ span{
     
     .hero3 {
         width: 100%;
-        height: 120vh;
+        height: auto;
         background-color: #f6f6f6;
         display: flex;
         font-family:"Segoe UI", "Helvetica Neue", sans-serif;
