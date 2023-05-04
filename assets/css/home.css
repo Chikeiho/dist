@@ -2243,7 +2243,7 @@ span{
 
 
 
-@media only screen and (max-width: 770px) {
+@media only screen and (min-width: 375px) and (max-width: 667px){
     .hero .overlay{
         width: 100%;
         height: 100vh;
@@ -2271,7 +2271,7 @@ span{
         position: relative;
         padding-left: 30px;
         left: 0px;
-        font-size: px;
+        font-size: 30px;
         font-weight: 600;
         width: 100%;
     }
@@ -2412,11 +2412,11 @@ span{
         right: 90px;
     }
     .hero .profile .left #name {
-        font-size:40px;
+        font-size:30px;
         text-align: center;
     }
     .hero .profile .left #job   {
-        font-size: 70px;
+        font-size: 40px;
         font-weight:lighter;
         text-align: center;
     }
