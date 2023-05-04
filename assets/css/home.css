@@ -2805,14 +2805,14 @@ span{
     
     .hero3 .hero3-main .hero3-bottom{
         text-align: center;
-        margin-top: 0px;
+        margin-top: 10px;
     }
     
     .hero3 .hero3-main .hero3-bottom a {
         text-align: center;
         text-decoration: none;
         font-weight: 600;
-        font-size: 10px;
+        font-size: 15px;
         color: #007e6a;
         text-transform: capitalize;
     }
