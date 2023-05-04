@@ -2554,7 +2554,7 @@ span{
         width: 100%;
         padding: 0;
         /* font-weight: 300; */
-        font-size: 15px;
+        font-size: 13px;
         line-height: 28px;
         color: #707070;
         text-align: justify;
@@ -2565,33 +2565,33 @@ span{
     }
     
     .hero2 .hero2-right .hero2-right-profile{
-        display: flex;
+        display: block;
         width: 100%;
-        margin-top: 20px;
-        flex-wrap: wrap;
+        margin-top: 10px;
     }
     .hero2 .hero2-right .hero2-right-profile .profile-name{
-        width: 45%;
-        margin-right: 5%;    
+        width: 100%;
+        margin-right: 0%;    
     }
     .hero2 .hero2-right .hero2-right-profile .profile-place{
-        width: 45%;
-        margin-left: 5%;
+        width: 100%;
+        margin-top: -10%;
+        margin-left: 0%;
     }
     .hero2 .hero2-right .hero2-right-profile .profile-email {
-        width: 45%;
-        margin-right: 5%;
-        margin-top: -30px
+        width: 100%;
+        margin-right: 0%;
+        margin-top: -10%
     }
     .hero2 .hero2-right .hero2-right-profile .profile-phone {
-        width: 45%;
-        margin-left: 5%;
-        margin-top: -30px;
+        width: 100%;
+        margin-left: 0%;
+        margin-top: -10%;
     }
     
     .hero2 .hero2-right .hero2-right-social{
         margin-top: 0px;
-        margin-top: -10px;
+        margin-top: 0px;
     }
     
     .hero2 .hero2-right .hero2-right-social nav{
@@ -2603,7 +2603,7 @@ span{
     .hero2 .hero2-right .hero2-right-social nav{
         display: inline;
         width: 100%;
-        margin-left: -90px;
+        margin-left: -35px;
         list-style-type: none;
     }
     .hero2 .hero2-right .hero2-right-social nav h5 {
@@ -2613,7 +2613,7 @@ span{
     .hero2 .hero2-right .hero2-right-social nav a{
         float: right;
         position: relative;
-        right: 90px;
+        right: 10px;
         top: 2px;
         color: #007e6a;
         text-decoration: none;
@@ -2641,10 +2641,10 @@ span{
         border-radius: 29px;
         background-color: #007e6a;
         padding: 12px 27px 12px 27px;
-        font-size: larger;
+        font-size: smaller;
         text-decoration: none;
         color: #fff;
-        margin-right: 30px;
+        margin-right: 10px;
         /* margin-left: 20px; */
     }
     
@@ -2655,7 +2655,7 @@ span{
         background: #00C16E;
         padding: 10px 25px 10px 25px;
         border-radius: 29px;
-        font-size: larger;
+        font-size: smaller;
         text-decoration: none;
     }
     
