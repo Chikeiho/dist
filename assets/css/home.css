@@ -2995,7 +2995,7 @@ span{
         margin-bottom: 10px;
         font-weight: 600;
         color: #404044;
-        text-align: justify
+        /* text-align: justify */
     }
     
     .hero5 .hero5-main .hero5-main-con-left p {
@@ -3476,7 +3476,7 @@ span{
         list-style-type: none;
         position: absolute;
         left: 0px;
-        bottom: 40px;
+        bottom: 0px;
 
     
     }
