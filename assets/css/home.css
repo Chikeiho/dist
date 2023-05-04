@@ -2447,9 +2447,10 @@ span{
 
 
     .hero .profile .left nav ul li{
-        display: inline-block;
+        display: block;
         margin-top: 7%;
-        margin-right: 20px;
+        margin-right: 0px;
+        margin-bottom: 25px;
     }
     
     .hero .profile .left nav ul li a {
@@ -2460,16 +2461,16 @@ span{
     .hero .profile .left nav ul li a.hire{
         border-radius: 29px;
         background-color: #007e6a;
-        padding: 15px 30px 15px 30px;
+        padding: 7.5px 15px 7.5px 15px;
         font-size: smaller;
-        margin-left: 22px;
+        margin-left: 0px;
         }
     
     .hero .profile .left nav li a.portfolio {
         color: #fff;
         border: 1px solid #dadada;
         background: rgba(255, 255, 255, 0.15);
-        padding: 13px 35px 13px 35px;
+        padding: 7.5px 15px 7.5px 15px;
         border-radius: 29px;
         font-size: smaller;
     }
