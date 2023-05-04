@@ -3267,7 +3267,7 @@ span{
     }
     
     .archi, .corpo, .ecom, .mobile, .fash, .estate{
-        display: none;
+        display: block;
 
     }
 
