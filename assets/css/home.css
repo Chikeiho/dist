@@ -2408,15 +2408,15 @@ span{
         color: white;
         margin-left: 0px;
         margin-top: 0%;
-        position: absolute;
-        right: 90px;
+        position: relative;
+        left: -90px;
     }
     .hero .profile .left #name {
         font-size:30px;
         text-align: center;
     }
     .hero .profile .left #job   {
-        font-size: 40px;
+        font-size: 35px;
         font-weight:lighter;
         text-align: center;
     }
@@ -2446,7 +2446,7 @@ span{
         border-radius: 29px;
         background-color: #007e6a;
         padding: 15px 30px 15px 30px;
-        font-size: larger;
+        font-size: smaller;
         margin-left: 22px;
         }
     
@@ -2456,7 +2456,7 @@ span{
         background: rgba(255, 255, 255, 0.15);
         padding: 13px 35px 13px 35px;
         border-radius: 29px;
-        font-size: larger;
+        font-size: smaller;
     }
     
     
