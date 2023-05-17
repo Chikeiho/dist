@@ -77,16 +77,16 @@ console.log("Yam")
 
 
 //If else statement
-var age = prompt('Please enter your age');
-if (age == 18){
-  console.log("You are allowed")
-} else if(age==20){
-  console.log("You are allowed")
-}else if(age==22) {
-  console.log("You are allowed")
-} else {
-  console.log("Gerrarahia")
-}
+// var age = prompt('Please enter your age');
+// if (age == 18) {
+//   console.log("You are allowed")
+// } else if (age == 20) {
+//   console.log("You are allowed")
+// } else if (age == 22) {
+//   console.log("You are allowed")
+// } else {
+//   console.log("Gerrarahia")
+// }
 
 
 
@@ -221,3 +221,93 @@ if (age == 18){
 // }
 
 // console.log(checkreturn(0,0))
+
+// function checkreturn(x, y){
+//     var sum = x + y;
+//     // console.log(sum) //this will be consoled out with the return value if it is not commented out.
+//     return [1,2,3,4,5];
+// }
+// console.log(checkreturn(0,140)[3])
+
+// var person ={
+//   name: 'Chike',
+//   age: 40,
+//   setSchool: function (name){
+//   console.log('The name of my school is', name)
+//   }
+// }
+// console.log(person.setSchool('UNN'))
+// console.log(person.setSchool('UNIPORT'))
+
+
+//-------------------------------------------
+
+
+// var hire_btn = document.getElementById('hire_btn')
+// console.log(hire_btn)
+
+// hire_btn.addEventListener('click', function () {
+//   console.log('clicked')
+// })
+
+// hire_btn.style.backgroundColor = 'red'
+
+
+// var menu = document.getElementById('menu')
+// var nav = document.getElementById('nav')
+// menu.removeEventListener('click', function () {
+//   nav.style.display = 'block'
+
+
+
+// var nav_links = document.getElementsByClassName ('nav_links') // This is for changing the color of class of elements
+// for (var i = 0; i < 5 ; i++){
+//   nav_links[i].style.color ='red'
+// }
+//})
+
+//-----------------------------------------------------
+
+//jacascript events 
+
+
+
+
+
+
+
+// F O R M     V A L I D A T I O N
+
+
+var form = document.getElementById('form')
+form.addEventListener('submit', function () {
+  // return false;
+  alert('form submitted')
+})
+
+var fullname = document.getElementById("fullname")
+var phone = document.getElementById("phone")
+var email = document.getElementById("email")
+var age = document.getElementById("age")
+var password = document.getElementById("password")
+
+function validate() {
+
+  if (fullname.value == "") {
+    alert("Fullname cannot be empty!")
+    return false;
+  } else if (phone.value == "") {
+    alert("Phone cannot be empty!")
+    return false;
+  } else if (isNaN(phone.value)) {
+    alert("Phone should be only numbers!")
+    return false;
+  } else if (phone.value.length > 11) {
+    alert("Phone should be not be greater than 11 digits!")
+    return false;
+  } else if (email.value.includes("@") == false) {
+    alert("Email must include '@'!")
+    return false;
+  }
+
+}
